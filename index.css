@@ -1,0 +1,87 @@
+/* * {
+    border: 1px solid red;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+}
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: whitesmoke
+}
+.icon {
+    width: 25px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    margin: 0px;
+    gap: 10px;
+}
+li {
+    cursor: pointer;
+}
+header {
+    background-color: #282828;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+.item {
+    position: relative;
+}
+.item-img {
+    width: 100%;
+    display: block;
+}
+.caption {
+    margin: 0px 25px;
+}
+.align-right {
+    margin-left: auto;
+}
+#img-banner {
+    background-color: #cd6758;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: whitesmoke;
+    padding: 10px;
+}
+button {
+    background-color: #cd6758;
+    color: whitesmoke;
+    padding: 10px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    align-self: center;
+}
+.caption {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.chatbox-bg {
+    width: 40px;
+    height: 40px;
+    background-color:#dda160;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    display: flex;
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+}
+.chatbox-img {
+    width: 50%;
+    margin: auto;
+}
